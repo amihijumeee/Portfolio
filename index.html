@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,13 +9,16 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
   <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
 
   <!-- ===== NAVIGATION ===== -->
@@ -48,19 +52,36 @@
 
     <div class="hero-content">
       <div class="hero-text reveal">
-        <p class="hero-greeting">Hello, World! 👋</p>
+        <!-- <p class="hero-greeting">Hello, World! 👋</p> -->
         <h1 class="hero-name">I'm <span class="gradient-text">Syahmi</span></h1>
         <h2 class="hero-role">
           <span class="typed-text" id="typed-text"></span><span class="cursor">|</span>
         </h2>
         <p class="hero-bio">
-          A Diploma in Computer Science graduate with a strong passion for software development, 
-          web application development, and technology. I have experience in full-stack development 
-          using Quasar Framework, Node.js, JavaScript, and TypeScript — creating modern, 
-          user-friendly applications that solve real problems.
+        <p>
+          I am a Diploma in Computer Science graduate from KPM Beranang, graduating with a CGPA of 3.91. I am passionate
+          about software development, web application development, and emerging technologies. Throughout my studies, I
+          actively enhanced my technical and professional skills by earning the SAS Viya certification and participating
+          in competitions such as WorldSkills Malaysia, PP KOMP and CTF Flag.
+        </p>
+        <p>
+          I completed my internship at MyCES Sdn. Bhd., where I gained valuable industry experience in software and web
+          application development. Following my internship, I was offered a 3-month contract position with the company,
+          allowing me to further strengthen my practical skills and contribute to real-world projects. During my time at
+          MyCES Sdn. Bhd., I worked with technologies such as Quasar Framework, JavaScript, TypeScript, Node.js,
+          phpMyAdmin and
+          modern web development tools to build user-friendly and efficient applications.
+        </p>
+
+        <p>
+          I am eager to continue expanding my knowledge and experience while contributing to innovative projects that
+          solve real-world problems through technology.
+        </p>
+
+
         </p>
         <div class="hero-actions">
-          <a href="#" class="btn btn-primary">
+          <a href="assets/pdf/resume.pdf" class="btn btn-primary" target="_blank">
             <i class="fas fa-download"></i> Download Resume
           </a>
           <a href="#contact" class="btn btn-secondary">
@@ -69,17 +90,20 @@
         </div>
 
         <div class="hero-socials">
-          <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/amihijumeee" class="social-icon" aria-label="GitHub" target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/syahmi-mokhtar-b3087b355/?skipRedirect=true" class="social-icon"
+            aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <!-- <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a> -->
+          <!-- <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
         </div>
       </div>
 
       <div class="hero-avatar reveal">
         <div class="avatar-ring">
           <div class="avatar-placeholder">
-            <i class="fas fa-user"></i>
+            <img src="assets/images/profile.png" alt="Profile Picture">
+            <!-- <i class="fas fa-user"></i> -->
           </div>
         </div>
         <div class="avatar-badge">
@@ -109,27 +133,32 @@
         <div class="project-card reveal">
           <div class="project-image-wrap">
             <div class="project-image-placeholder">
-              <i class="fas fa-image"></i>
-              <span>Project Image</span>
+              <img src="assets/images/religioussystem.png" alt="Religious Web App">
+              <!-- <i class="fas fa-image"></i>
+              <span>Project Image</span> -->
             </div>
             <div class="project-overlay">
-              <a href="#" class="overlay-link"><i class="fab fa-github"></i></a>
-              <a href="#" class="overlay-link"><i class="fas fa-external-link-alt"></i></a>
+              <!-- <a href="#" class="overlay-link"><i class="fab fa-github"></i></a> -->
+              <a href="https://religiousprogrammanagement.onrender.com/program/" class="overlay-link" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title">[Your Project Name]</h3>
-            <p class="project-desc">[Write your project description here. What problem does it solve? What makes it interesting?]</p>
+            <h3 class="project-title">Religious Program Management System</h3>
+            <p class="project-desc">A web application for managing mosque programs. Users can view available programs,
+              register for classes, and give feedback. Admins can manage registrations, view feedback, and update
+              program details. Instructors can see assigned classes and manage their teaching schedule.</p>
             <div class="project-tags">
               <span class="tag">HTML</span>
               <span class="tag">CSS</span>
               <span class="tag">JavaScript</span>
-              <span class="tag">Quasar</span>
+              <span class="tag">Python (Django)</span>
+              <span class="tag">SQL</span>
             </div>
-            <div class="project-links">
-              <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
-              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
+            <!-- <div class="project-links"> -->
+            <!-- <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a> -->
+            <!-- <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt" target="_blank"></i> Live Demo</a> -->
+            <!-- </div> -->
           </div>
         </div>
 
@@ -137,26 +166,32 @@
         <div class="project-card reveal">
           <div class="project-image-wrap">
             <div class="project-image-placeholder">
-              <i class="fas fa-image"></i>
-              <span>Project Image</span>
+              <img src="assets/images/ticketingplatform.png" alt="Ticketing Web App">
+              <!-- <i class="fas fa-image"></i>
+              <span>Project Image</span> -->
             </div>
             <div class="project-overlay">
-              <a href="#" class="overlay-link"><i class="fab fa-github"></i></a>
-              <a href="#" class="overlay-link"><i class="fas fa-external-link-alt"></i></a>
+              <!-- <a href="#" class="overlay-link"><i class="fab fa-github"></i></a> -->
+              <a href="https://ticketingplatform-qwxk.onrender.com/m1/" class="overlay-link" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title">[Your Project Name]</h3>
-            <p class="project-desc">[Write your project description here. What problem does it solve? What makes it interesting?]</p>
+            <h3 class="project-title">Ticketing Platform</h3>
+            <p class="project-desc">A web app for browsing and purchasing tickets for esports events. Users can view
+              event details and buy tickets easily. Admins can create and manage games, events, and ticket availability.
+            </p>
             <div class="project-tags">
-              <span class="tag">Node.js</span>
-              <span class="tag">TypeScript</span>
-              <span class="tag">MySQL</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Python (Django)</span>
+              <span class="tag">SQL</span>
             </div>
-            <div class="project-links">
+            <!-- <div class="project-links">
               <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
               <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -164,26 +199,32 @@
         <div class="project-card reveal">
           <div class="project-image-wrap">
             <div class="project-image-placeholder">
-              <i class="fas fa-image"></i>
-              <span>Project Image</span>
+              <img src="assets/images/mealfinder.png" alt="Ticketing Web App">
+              <!-- <i class="fas fa-image"></i>
+              <span>Project Image</span> -->
             </div>
             <div class="project-overlay">
-              <a href="#" class="overlay-link"><i class="fab fa-github"></i></a>
-              <a href="#" class="overlay-link"><i class="fas fa-external-link-alt"></i></a>
+              <!-- <a href="#" class="overlay-link"><i class="fab fa-github"></i></a> -->
+              <a href="https://amihijumeee.github.io/meal_finder/" class="overlay-link" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title">[Your Project Name]</h3>
-            <p class="project-desc">[Write your project description here. What problem does it solve? What makes it interesting?]</p>
+            <h3 class="project-title">Meal Finder</h3>
+            <p class="project-desc">A recipe web app where users can search for meals, save recipes, and learn cooking
+              through YouTube tutorials. It also helps users plan meal times (breakfast, lunch, etc.) and check required
+              groceries for each recipe.</p>
             <div class="project-tags">
-              <span class="tag">Firebase</span>
-              <span class="tag">REST API</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
               <span class="tag">JavaScript</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Electron</span>
             </div>
-            <div class="project-links">
+            <!-- <div class="project-links">
               <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
               <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -191,80 +232,29 @@
         <div class="project-card reveal">
           <div class="project-image-wrap">
             <div class="project-image-placeholder">
-              <i class="fas fa-image"></i>
-              <span>Project Image</span>
+              <img src="assets/images/gymwebsite.png" alt="Ticketing Web App">
+              <!-- <i class="fas fa-image"></i>
+              <span>Project Image</span> -->
             </div>
             <div class="project-overlay">
-              <a href="#" class="overlay-link"><i class="fab fa-github"></i></a>
-              <a href="#" class="overlay-link"><i class="fas fa-external-link-alt"></i></a>
+              <!-- <a href="#" class="overlay-link"><i class="fab fa-github"></i></a> -->
+              <a href="https://amihijumeee.github.io/gym-website/" class="overlay-link" target="_blank"><i
+                  class="fas fa-external-link-alt"></i></a>
             </div>
           </div>
           <div class="project-body">
-            <h3 class="project-title">[Your Project Name]</h3>
-            <p class="project-desc">[Write your project description here. What problem does it solve? What makes it interesting?]</p>
+            <h3 class="project-title">Gym Website</h3>
+            <p class="project-desc">A gym membership website where users can register for gym access, choose facility
+              packages, and select personal trainers based on their needs.</p>
             <div class="project-tags">
-              <span class="tag">Quasar</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">MySQL</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
             </div>
-            <div class="project-links">
+            <!-- <div class="project-links">
               <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
               <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project Card 5 -->
-        <div class="project-card reveal">
-          <div class="project-image-wrap">
-            <div class="project-image-placeholder">
-              <i class="fas fa-image"></i>
-              <span>Project Image</span>
-            </div>
-            <div class="project-overlay">
-              <a href="#" class="overlay-link"><i class="fab fa-github"></i></a>
-              <a href="#" class="overlay-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 class="project-title">[Your Project Name]</h3>
-            <p class="project-desc">[Write your project description here. What problem does it solve? What makes it interesting?]</p>
-            <div class="project-tags">
-              <span class="tag">TypeScript</span>
-              <span class="tag">Firebase</span>
-              <span class="tag">CSS3</span>
-            </div>
-            <div class="project-links">
-              <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
-              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Project Card 6 -->
-        <div class="project-card reveal">
-          <div class="project-image-wrap">
-            <div class="project-image-placeholder">
-              <i class="fas fa-image"></i>
-              <span>Project Image</span>
-            </div>
-            <div class="project-overlay">
-              <a href="#" class="overlay-link"><i class="fab fa-github"></i></a>
-              <a href="#" class="overlay-link"><i class="fas fa-external-link-alt"></i></a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 class="project-title">[Your Project Name]</h3>
-            <p class="project-desc">[Write your project description here. What problem does it solve? What makes it interesting?]</p>
-            <div class="project-tags">
-              <span class="tag">HTML5</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">REST API</span>
-            </div>
-            <div class="project-links">
-              <a href="#" class="btn btn-sm btn-outline"><i class="fab fa-github"></i> GitHub</a>
-              <a href="#" class="btn btn-sm btn-primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -294,49 +284,61 @@
               <div class="skill-info">
                 <i class="fab fa-html5"></i>
                 <span>HTML5</span>
-                <span class="skill-pct">90%</span>
+                <!-- <span class="skill-pct">90%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="90"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fab fa-css3-alt"></i>
                 <span>CSS3</span>
-                <span class="skill-pct">85%</span>
+                <!-- <span class="skill-pct">85%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="85"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fab fa-js"></i>
                 <span>JavaScript</span>
-                <span class="skill-pct">80%</span>
+                <!-- <span class="skill-pct">80%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="80"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-code"></i>
                 <span>TypeScript</span>
-                <span class="skill-pct">75%</span>
+                <!-- <span class="skill-pct">75%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="75"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-layer-group"></i>
                 <span>Quasar Framework</span>
-                <span class="skill-pct">80%</span>
+                <!-- <span class="skill-pct">80%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="80"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-mobile-alt"></i>
                 <span>Responsive Design</span>
-                <span class="skill-pct">88%</span>
+                <!-- <span class="skill-pct">88%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="88"></div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -352,17 +354,21 @@
               <div class="skill-info">
                 <i class="fab fa-node-js"></i>
                 <span>Node.js</span>
-                <span class="skill-pct">78%</span>
+                <!-- <span class="skill-pct">78%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="78"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-plug"></i>
                 <span>REST API</span>
-                <span class="skill-pct">80%</span>
+                <!-- <span class="skill-pct">80%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="80"></div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -378,17 +384,21 @@
               <div class="skill-info">
                 <i class="fas fa-table"></i>
                 <span>MySQL</span>
-                <span class="skill-pct">75%</span>
+                <!-- <span class="skill-pct">75%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="75"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-fire"></i>
                 <span>Firebase</span>
-                <span class="skill-pct">70%</span>
+                <!-- <span class="skill-pct">70%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="70"></div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -404,33 +414,41 @@
               <div class="skill-info">
                 <i class="fab fa-git-alt"></i>
                 <span>Git & GitHub</span>
-                <span class="skill-pct">82%</span>
+                <!-- <span class="skill-pct">82%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="82"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-code"></i>
                 <span>VS Code</span>
-                <span class="skill-pct">90%</span>
+                <!-- <span class="skill-pct">90%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="90"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fas fa-vial"></i>
                 <span>Postman</span>
-                <span class="skill-pct">76%</span>
+                <!-- <span class="skill-pct">76%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="76"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="76"></div>
+              </div> -->
             </div>
             <div class="skill-item">
               <div class="skill-info">
                 <i class="fab fa-figma"></i>
                 <span>Figma</span>
-                <span class="skill-pct">65%</span>
+                <!-- <span class="skill-pct">65%</span> -->
               </div>
-              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+              <!-- <div class="skill-bar">
+                <div class="skill-fill" data-width="65"></div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -454,17 +472,24 @@
         <div class="cert-card reveal">
           <div class="cert-image-wrap">
             <div class="cert-image-placeholder">
+              <!-- <img src="assets/images/sas.png" alt="SAS"> -->
               <i class="fas fa-certificate"></i>
             </div>
           </div>
           <div class="cert-body">
             <div class="cert-meta">
-              <span class="cert-org"><i class="fas fa-building"></i> [Organization]</span>
-              <span class="cert-date"><i class="far fa-calendar-alt"></i> [Date]</span>
+              <span class="cert-org"><i class="fas fa-building"></i>SAS</span>
+              <span class="cert-date"><i class="far fa-calendar-alt"></i>March 05,2026</span>
             </div>
-            <h3 class="cert-title">[Certificate / Award Title]</h3>
-            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]</p>
-            <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> View Credential</a>
+            <h3 class="cert-title">SAS Certified Specialist: Visual Business Analytics Using SAS Viya</h3>
+            <p class="cert-desc">A SAS Certified Specialist: Visual Analytics Using SAS Viya has demonstrated the
+              ability to use SAS Visual Analytics to analyze data and design reports that provide concise, interactive,
+              and relevant data summaries and are skilled in such areas as adding and manipulating data items within SAS
+              Visual Analytics, analyzing data, and designing reports using objects in SAS Visual Analytics.
+            </p>
+            <a href="https://www.credly.com/badges/170f3a33-bc85-41f7-85f8-01cef76af052/linked_in?t=td8bbg"
+              class="btn btn-sm btn-outline" target="_blank"><i class="fas fa-external-link-alt"></i> View
+              Credential</a>
           </div>
         </div>
 
@@ -481,7 +506,8 @@
               <span class="cert-date"><i class="far fa-calendar-alt"></i> [Date]</span>
             </div>
             <h3 class="cert-title">[Certificate / Award Title]</h3>
-            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]</p>
+            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]
+            </p>
             <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> View Credential</a>
           </div>
         </div>
@@ -499,7 +525,8 @@
               <span class="cert-date"><i class="far fa-calendar-alt"></i> [Date]</span>
             </div>
             <h3 class="cert-title">[Certificate / Award Title]</h3>
-            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]</p>
+            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]
+            </p>
             <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> View Credential</a>
           </div>
         </div>
@@ -517,7 +544,8 @@
               <span class="cert-date"><i class="far fa-calendar-alt"></i> [Date]</span>
             </div>
             <h3 class="cert-title">[Certificate / Award Title]</h3>
-            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]</p>
+            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]
+            </p>
             <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> View Credential</a>
           </div>
         </div>
@@ -535,7 +563,8 @@
               <span class="cert-date"><i class="far fa-calendar-alt"></i> [Date]</span>
             </div>
             <h3 class="cert-title">[Certificate / Award Title]</h3>
-            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]</p>
+            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]
+            </p>
             <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> View Credential</a>
           </div>
         </div>
@@ -553,7 +582,8 @@
               <span class="cert-date"><i class="far fa-calendar-alt"></i> [Date]</span>
             </div>
             <h3 class="cert-title">[Certificate / Award Title]</h3>
-            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]</p>
+            <p class="cert-desc">[Insert a short description about this certificate or award and what it represents.]
+            </p>
             <a href="#" class="btn btn-sm btn-outline"><i class="fas fa-external-link-alt"></i> View Credential</a>
           </div>
         </div>
@@ -576,66 +606,41 @@
         <!-- Contact Info -->
         <div class="contact-info reveal">
           <h3>Let's Talk</h3>
-          <p>Have a project in mind, want to collaborate, or just want to say hi? My inbox is always open.</p>
+          <p>Have a project in mind, want to collaborate, or just want to say hi? Just email or contact me.</p>
 
           <div class="contact-details">
             <div class="contact-item">
               <div class="contact-icon"><i class="fas fa-envelope"></i></div>
               <div>
                 <span class="contact-label">Email</span>
-                <a href="mailto:syahmi@email.com" class="contact-value">syahmi@email.com</a>
+                <a href="mailto:nursyahmimokh@email.com" class="contact-value"
+                  target="_blank">nursyahmimokh@email.com</a>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
               <div>
                 <span class="contact-label">Phone</span>
-                <a href="tel:+601234567890" class="contact-value">+60 12-345 6789</a>
+                <a href="tel:+60192890305" class="contact-value" target="_blank">+60 19-289 0305</a>
               </div>
             </div>
             <div class="contact-item">
               <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
               <div>
                 <span class="contact-label">Location</span>
-                <span class="contact-value">Malaysia</span>
+                <span class="contact-value">Selangor, Malaysia</span>
               </div>
             </div>
           </div>
 
           <div class="contact-socials">
-            <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
-            <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-            <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/amihijumeee" class="social-icon" aria-label="GitHub" target="_blank"><i
+                class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/syahmi-mokhtar-b3087b355/?skipRedirect=true" class="social-icon"
+              aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <!-- <a href="#" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>  -->
+            <!-- <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
           </div>
-        </div>
-
-        <!-- Contact Form -->
-        <div class="contact-form-wrap reveal">
-          <form class="contact-form" id="contact-form" novalidate>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="name">Full Name</label>
-                <input type="text" id="name" name="name" placeholder="Your full name" required />
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" placeholder="your@email.com" required />
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" placeholder="Tell me more..." required></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary btn-full">
-              <i class="fas fa-paper-plane"></i> Send Message
-            </button>
-            <div class="form-status" id="form-status"></div>
-          </form>
         </div>
 
       </div>
@@ -651,9 +656,11 @@
         </a>
         <p class="footer-copy">© 2026 Syahmi. All Rights Reserved.</p>
         <div class="footer-socials">
-          <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
-          <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
-          <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/amihijumeee" class="social-icon" aria-label="GitHub" target="_blank"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/syahmi-mokhtar-b3087b355/?skipRedirect=true" class="social-icon"
+            aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          <!-- <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a> -->
         </div>
       </div>
     </div>
@@ -666,4 +673,5 @@
 
   <script src="js/script.js"></script>
 </body>
+
 </html>
